@@ -1,0 +1,1556 @@
+  File "structuralAnalysisWebService_V2.py", line 259
+    app.run(debug=True, port=9009, host='0.0.0.0',ssl_context=('cert.pem', 'key.pem')))
+                                                                                      ^
+SyntaxError: invalid syntax
+ * Serving Flask app "structuralAnalysisWebService_V2" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+Using TensorFlow backend.
+/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/smart_open/ssh.py:34: UserWarning: paramiko missing, opening SSH/SCP/SFTP paths will be disabled.  `pip install paramiko` to suppress
+  warnings.warn('paramiko missing, opening SSH/SCP/SFTP paths will be disabled.  `pip install paramiko` to suppress')
+ * Running on https://0.0.0.0:9009/ (Press CTRL+C to quit)
+ * Restarting with stat
+Using TensorFlow backend.
+/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/smart_open/ssh.py:34: UserWarning: paramiko missing, opening SSH/SCP/SFTP paths will be disabled.  `pip install paramiko` to suppress
+  warnings.warn('paramiko missing, opening SSH/SCP/SFTP paths will be disabled.  `pip install paramiko` to suppress')
+ * Debugger is active!
+ * Debugger PIN: 333-440-408
+ * Detected change in '/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py', reloading
+ * Restarting with stat
+Using TensorFlow backend.
+/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/smart_open/ssh.py:34: UserWarning: paramiko missing, opening SSH/SCP/SFTP paths will be disabled.  `pip install paramiko` to suppress
+  warnings.warn('paramiko missing, opening SSH/SCP/SFTP paths will be disabled.  `pip install paramiko` to suppress')
+ * Debugger is active!
+ * Debugger PIN: 333-440-408
+ * Serving Flask app "structuralAnalysisWebService_V2" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+Using TensorFlow backend.
+/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/smart_open/ssh.py:34: UserWarning: paramiko missing, opening SSH/SCP/SFTP paths will be disabled.  `pip install paramiko` to suppress
+  warnings.warn('paramiko missing, opening SSH/SCP/SFTP paths will be disabled.  `pip install paramiko` to suppress')
+Traceback (most recent call last):
+  File "structuralAnalysisWebService_V2.py", line 259, in <module>
+    app.run(debug=True, port=9009, host='0.0.0.0',ssl_context=('cert.pem', 'key.pem'))
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 944, in run
+    run_simple(host, port, self, **options)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/werkzeug/serving.py", line 795, in run_simple
+    s.bind(get_sockaddr(hostname, port, address_family))
+OSError: [Errno 98] Address already in use
+WARNING:tensorflow:From /network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+OMP: Info #212: KMP_AFFINITY: decoding x2APIC ids.
+OMP: Info #210: KMP_AFFINITY: Affinity capable, using global cpuid leaf 11 info
+OMP: Info #154: KMP_AFFINITY: Initial OS proc set respected: 0-31
+OMP: Info #156: KMP_AFFINITY: 32 available OS procs
+OMP: Info #157: KMP_AFFINITY: Uniform topology
+OMP: Info #179: KMP_AFFINITY: 2 packages x 8 cores/pkg x 2 threads/core (16 total cores)
+OMP: Info #214: KMP_AFFINITY: OS proc to physical thread map:
+OMP: Info #171: KMP_AFFINITY: OS proc 0 maps to package 0 core 0 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 16 maps to package 0 core 0 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 4 maps to package 0 core 1 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 20 maps to package 0 core 1 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 8 maps to package 0 core 2 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 24 maps to package 0 core 2 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 12 maps to package 0 core 3 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 28 maps to package 0 core 3 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 14 maps to package 0 core 4 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 30 maps to package 0 core 4 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 10 maps to package 0 core 5 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 26 maps to package 0 core 5 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 6 maps to package 0 core 6 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 22 maps to package 0 core 6 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 2 maps to package 0 core 7 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 18 maps to package 0 core 7 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 1 maps to package 1 core 0 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 17 maps to package 1 core 0 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 5 maps to package 1 core 1 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 21 maps to package 1 core 1 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 9 maps to package 1 core 2 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 25 maps to package 1 core 2 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 13 maps to package 1 core 3 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 29 maps to package 1 core 3 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 15 maps to package 1 core 4 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 31 maps to package 1 core 4 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 11 maps to package 1 core 5 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 27 maps to package 1 core 5 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 7 maps to package 1 core 6 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 23 maps to package 1 core 6 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 3 maps to package 1 core 7 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 19 maps to package 1 core 7 thread 1 
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30572 thread 0 bound to OS proc set 0
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30575 thread 1 bound to OS proc set 4
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30576 thread 2 bound to OS proc set 8
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30577 thread 3 bound to OS proc set 12
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30578 thread 4 bound to OS proc set 14
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30579 thread 5 bound to OS proc set 10
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30580 thread 6 bound to OS proc set 6
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30581 thread 7 bound to OS proc set 2
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30583 thread 9 bound to OS proc set 5
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30582 thread 8 bound to OS proc set 1
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30584 thread 10 bound to OS proc set 9
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30585 thread 11 bound to OS proc set 13
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30586 thread 12 bound to OS proc set 15
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30587 thread 13 bound to OS proc set 11
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30588 thread 14 bound to OS proc set 7
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30589 thread 15 bound to OS proc set 3
+WARNING:tensorflow:From /network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-29 15:29:08.986893: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+2019-08-29 15:29:08.995653: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2100000000 Hz
+2019-08-29 15:29:08.995803: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x7fea00f2daa0 executing computations on platform Host. Devices:
+2019-08-29 15:29:08.995822: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+2019-08-29 15:29:08.995925: I tensorflow/core/common_runtime/process_util.cc:71] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30597 thread 16 bound to OS proc set 16
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30629 thread 17 bound to OS proc set 20
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30630 thread 18 bound to OS proc set 24
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30631 thread 19 bound to OS proc set 28
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30632 thread 20 bound to OS proc set 30
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30633 thread 21 bound to OS proc set 26
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30634 thread 22 bound to OS proc set 22
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30635 thread 23 bound to OS proc set 18
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30636 thread 24 bound to OS proc set 17
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30638 thread 26 bound to OS proc set 25
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30637 thread 25 bound to OS proc set 21
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30639 thread 27 bound to OS proc set 29
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30640 thread 28 bound to OS proc set 31
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30641 thread 29 bound to OS proc set 27
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30643 thread 31 bound to OS proc set 19
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30642 thread 30 bound to OS proc set 23
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30644 thread 32 bound to OS proc set 0
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30598 thread 33 bound to OS proc set 4
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30645 thread 34 bound to OS proc set 8
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30647 thread 36 bound to OS proc set 14
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30646 thread 35 bound to OS proc set 12
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30648 thread 37 bound to OS proc set 10
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30649 thread 38 bound to OS proc set 6
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30650 thread 39 bound to OS proc set 2
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30651 thread 40 bound to OS proc set 1
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30652 thread 41 bound to OS proc set 5
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30653 thread 42 bound to OS proc set 9
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30654 thread 43 bound to OS proc set 13
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30655 thread 44 bound to OS proc set 15
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30656 thread 45 bound to OS proc set 11
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30657 thread 46 bound to OS proc set 7
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30659 thread 48 bound to OS proc set 16
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30658 thread 47 bound to OS proc set 3
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30660 thread 49 bound to OS proc set 20
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30661 thread 50 bound to OS proc set 24
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30663 thread 51 bound to OS proc set 28
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30665 thread 53 bound to OS proc set 26
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30664 thread 52 bound to OS proc set 30
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30666 thread 54 bound to OS proc set 22
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30668 thread 56 bound to OS proc set 17
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30667 thread 55 bound to OS proc set 18
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30670 thread 58 bound to OS proc set 25
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30669 thread 57 bound to OS proc set 21
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30671 thread 59 bound to OS proc set 29
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30672 thread 60 bound to OS proc set 31
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30673 thread 61 bound to OS proc set 27
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30674 thread 62 bound to OS proc set 23
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30675 thread 63 bound to OS proc set 19
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30676 thread 64 bound to OS proc set 0
+structuralAnalysisWebService_V2.py:141: DeprecationWarning: Call to deprecated `__getitem__` (Method will be removed in 4.0.0, use self.wv.__getitem__() instead).
+  matrix.append(wordEmbeddingModel[word])
+169.226.232.228 - - [29/Aug/2019 15:29:09] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 16576 thread 65 bound to OS proc set 4
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 16578 thread 66 bound to OS proc set 8
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 16579 thread 67 bound to OS proc set 12
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 16580 thread 68 bound to OS proc set 14
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 16582 thread 70 bound to OS proc set 6
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 16581 thread 69 bound to OS proc set 10
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 16584 thread 72 bound to OS proc set 1
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 16583 thread 71 bound to OS proc set 2
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 16586 thread 74 bound to OS proc set 9
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 16585 thread 73 bound to OS proc set 5
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 16587 thread 75 bound to OS proc set 13
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 16588 thread 76 bound to OS proc set 15
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 16589 thread 77 bound to OS proc set 11
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 16590 thread 78 bound to OS proc set 7
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 16591 thread 79 bound to OS proc set 3
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 16592 thread 80 bound to OS proc set 16
+107.21.74.135 - - [29/Aug/2019 19:22:16] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 17185 thread 65 bound to OS proc set 4
+107.21.74.135 - - [29/Aug/2019 19:30:01] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 17277 thread 65 bound to OS proc set 4
+107.21.74.135 - - [29/Aug/2019 19:31:06] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 17387 thread 65 bound to OS proc set 4
+107.21.74.135 - - [29/Aug/2019 19:32:10] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 20772 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:16:50] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 20861 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:17:36] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 22256 thread 65 bound to OS proc set 4
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 22259 thread 81 bound to OS proc set 20
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 22262 thread 83 bound to OS proc set 28
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 22261 thread 82 bound to OS proc set 24
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 22263 thread 84 bound to OS proc set 30
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 22264 thread 85 bound to OS proc set 26
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 22265 thread 86 bound to OS proc set 22
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 22266 thread 87 bound to OS proc set 18
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 22267 thread 88 bound to OS proc set 17
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 22268 thread 89 bound to OS proc set 21
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 22269 thread 90 bound to OS proc set 25
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 22270 thread 91 bound to OS proc set 29
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 22271 thread 92 bound to OS proc set 31
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 22272 thread 93 bound to OS proc set 27
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 22273 thread 94 bound to OS proc set 23
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 22274 thread 95 bound to OS proc set 19
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 22275 thread 96 bound to OS proc set 0
+54.237.204.202 - - [29/Aug/2019 20:35:31] "[1m[35mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2328, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2314, in wsgi_app
+    response = self.handle_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1760, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask_basicauth.py", line 108, in wrapper
+    return view_func(*args, **kwargs)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 162, in initialEmailAnalysisRawEmail
+    model = loadModel(modelName)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 65, in loadModel
+    classifier.load_weights(fileName + '.h5')
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/network.py", line 1166, in load_weights
+    f, self.layers, reshape=reshape)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/saving.py", line 1058, in load_weights_from_hdf5_group
+    K.batch_set_value(weight_value_tuples)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py", line 2470, in batch_set_value
+    get_session().run(assign_ops, feed_dict=feed_dict)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1095, in _run
+    'Cannot interpret feed_dict key as Tensor: ' + e.args[0])
+TypeError: Cannot interpret feed_dict key as Tensor: Tensor Tensor("Placeholder:0", shape=(40, 240), dtype=float32) is not an element of this graph.
+54.237.204.202 - - [29/Aug/2019 20:35:31] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 22323 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:35:34] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 22362 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:35:37] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 22414 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:35:56] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 22576 thread 65 bound to OS proc set 4
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 22581 thread 81 bound to OS proc set 20
+54.237.204.202 - - [29/Aug/2019 20:36:40] "[1m[35mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2328, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2314, in wsgi_app
+    response = self.handle_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1760, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask_basicauth.py", line 108, in wrapper
+    return view_func(*args, **kwargs)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 162, in initialEmailAnalysisRawEmail
+    model = loadModel(modelName)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 65, in loadModel
+    classifier.load_weights(fileName + '.h5')
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/network.py", line 1166, in load_weights
+    f, self.layers, reshape=reshape)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/saving.py", line 1058, in load_weights_from_hdf5_group
+    K.batch_set_value(weight_value_tuples)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py", line 2470, in batch_set_value
+    get_session().run(assign_ops, feed_dict=feed_dict)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1095, in _run
+    'Cannot interpret feed_dict key as Tensor: ' + e.args[0])
+TypeError: Cannot interpret feed_dict key as Tensor: Tensor Tensor("Placeholder:0", shape=(40, 240), dtype=float32) is not an element of this graph.
+54.237.204.202 - - [29/Aug/2019 20:36:41] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 22623 thread 65 bound to OS proc set 4
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 22626 thread 81 bound to OS proc set 20
+54.237.204.202 - - [29/Aug/2019 20:36:42] "[1m[35mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2328, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2314, in wsgi_app
+    response = self.handle_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1760, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask_basicauth.py", line 108, in wrapper
+    return view_func(*args, **kwargs)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 162, in initialEmailAnalysisRawEmail
+    model = loadModel(modelName)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 65, in loadModel
+    classifier.load_weights(fileName + '.h5')
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/network.py", line 1166, in load_weights
+    f, self.layers, reshape=reshape)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/saving.py", line 1058, in load_weights_from_hdf5_group
+    K.batch_set_value(weight_value_tuples)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py", line 2470, in batch_set_value
+    get_session().run(assign_ops, feed_dict=feed_dict)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1095, in _run
+    'Cannot interpret feed_dict key as Tensor: ' + e.args[0])
+TypeError: Cannot interpret feed_dict key as Tensor: Tensor Tensor("Placeholder:0", shape=(40, 240), dtype=float32) is not an element of this graph.
+54.237.204.202 - - [29/Aug/2019 20:36:42] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 22662 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:36:44] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 22698 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:36:45] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 22743 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:36:55] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 22799 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:37:14] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 22838 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:37:19] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 22886 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:37:25] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 22932 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:37:28] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 22972 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:37:29] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 23008 thread 65 bound to OS proc set 4
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 23043 thread 81 bound to OS proc set 20
+54.237.204.202 - - [29/Aug/2019 20:37:32] "[1m[35mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2328, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2314, in wsgi_app
+    response = self.handle_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1760, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask_basicauth.py", line 108, in wrapper
+    return view_func(*args, **kwargs)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 162, in initialEmailAnalysisRawEmail
+    model = loadModel(modelName)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 65, in loadModel
+    classifier.load_weights(fileName + '.h5')
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/network.py", line 1166, in load_weights
+    f, self.layers, reshape=reshape)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/saving.py", line 1058, in load_weights_from_hdf5_group
+    K.batch_set_value(weight_value_tuples)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py", line 2470, in batch_set_value
+    get_session().run(assign_ops, feed_dict=feed_dict)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1095, in _run
+    'Cannot interpret feed_dict key as Tensor: ' + e.args[0])
+TypeError: Cannot interpret feed_dict key as Tensor: Tensor Tensor("Placeholder:0", shape=(40, 240), dtype=float32) is not an element of this graph.
+54.237.204.202 - - [29/Aug/2019 20:37:32] "[1m[35mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 500 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 23070 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:37:43] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 23117 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:37:56] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 23177 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:38:16] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 23288 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:38:21] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 23362 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:38:23] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 23403 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:38:26] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 23438 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:38:27] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 23495 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:38:37] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 23539 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:38:43] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 24145 thread 65 bound to OS proc set 4
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 24147 thread 81 bound to OS proc set 20
+54.237.204.202 - - [29/Aug/2019 20:44:02] "[1m[35mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 500 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 24190 thread 81 bound to OS proc set 20
+Traceback (most recent call last):
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2328, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2314, in wsgi_app
+    response = self.handle_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1760, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask_basicauth.py", line 108, in wrapper
+    return view_func(*args, **kwargs)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 162, in initialEmailAnalysisRawEmail
+    model = loadModel(modelName)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 65, in loadModel
+    classifier.load_weights(fileName + '.h5')
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/network.py", line 1166, in load_weights
+    f, self.layers, reshape=reshape)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/saving.py", line 1058, in load_weights_from_hdf5_group
+    K.batch_set_value(weight_value_tuples)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py", line 2470, in batch_set_value
+    get_session().run(assign_ops, feed_dict=feed_dict)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1095, in _run
+    'Cannot interpret feed_dict key as Tensor: ' + e.args[0])
+TypeError: Cannot interpret feed_dict key as Tensor: Tensor Tensor("Placeholder:0", shape=(40, 240), dtype=float32) is not an element of this graph.
+54.237.204.202 - - [29/Aug/2019 20:44:02] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+54.237.204.202 - - [29/Aug/2019 20:44:03] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 24226 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:44:04] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 24261 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:44:05] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 24295 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:44:06] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 24398 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:44:36] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 24514 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:45:06] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 24566 thread 65 bound to OS proc set 4
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 24577 thread 81 bound to OS proc set 20
+54.237.204.202 - - [29/Aug/2019 20:45:08] "[1m[35mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2328, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2314, in wsgi_app
+    response = self.handle_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1760, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask_basicauth.py", line 108, in wrapper
+    return view_func(*args, **kwargs)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 162, in initialEmailAnalysisRawEmail
+    model = loadModel(modelName)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 65, in loadModel
+    classifier.load_weights(fileName + '.h5')
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/network.py", line 1166, in load_weights
+    f, self.layers, reshape=reshape)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/saving.py", line 1058, in load_weights_from_hdf5_group
+    K.batch_set_value(weight_value_tuples)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py", line 2470, in batch_set_value
+    get_session().run(assign_ops, feed_dict=feed_dict)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1095, in _run
+    'Cannot interpret feed_dict key as Tensor: ' + e.args[0])
+TypeError: Cannot interpret feed_dict key as Tensor: Tensor Tensor("Placeholder:0", shape=(40, 240), dtype=float32) is not an element of this graph.
+54.237.204.202 - - [29/Aug/2019 20:45:09] "[1m[35mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 500 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 24609 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:45:10] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 24643 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:45:11] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 24678 thread 65 bound to OS proc set 4
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 24697 thread 81 bound to OS proc set 20
+54.237.204.202 - - [29/Aug/2019 20:45:12] "[1m[35mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2328, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2314, in wsgi_app
+    response = self.handle_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1760, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask_basicauth.py", line 108, in wrapper
+    return view_func(*args, **kwargs)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 162, in initialEmailAnalysisRawEmail
+    model = loadModel(modelName)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 65, in loadModel
+    classifier.load_weights(fileName + '.h5')
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/network.py", line 1166, in load_weights
+    f, self.layers, reshape=reshape)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/saving.py", line 1058, in load_weights_from_hdf5_group
+    K.batch_set_value(weight_value_tuples)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py", line 2470, in batch_set_value
+    get_session().run(assign_ops, feed_dict=feed_dict)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1095, in _run
+    'Cannot interpret feed_dict key as Tensor: ' + e.args[0])
+TypeError: Cannot interpret feed_dict key as Tensor: Tensor Tensor("Placeholder:0", shape=(40, 240), dtype=float32) is not an element of this graph.
+54.237.204.202 - - [29/Aug/2019 20:45:12] "[1m[35mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 500 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 24794 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:46:21] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 24842 thread 65 bound to OS proc set 4
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 24859 thread 81 bound to OS proc set 20
+54.237.204.202 - - [29/Aug/2019 20:46:26] "[1m[35mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2328, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2314, in wsgi_app
+    response = self.handle_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1760, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask_basicauth.py", line 108, in wrapper
+    return view_func(*args, **kwargs)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 162, in initialEmailAnalysisRawEmail
+    model = loadModel(modelName)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 65, in loadModel
+    classifier.load_weights(fileName + '.h5')
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/network.py", line 1166, in load_weights
+    f, self.layers, reshape=reshape)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/saving.py", line 1058, in load_weights_from_hdf5_group
+    K.batch_set_value(weight_value_tuples)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py", line 2470, in batch_set_value
+    get_session().run(assign_ops, feed_dict=feed_dict)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1095, in _run
+    'Cannot interpret feed_dict key as Tensor: ' + e.args[0])
+TypeError: Cannot interpret feed_dict key as Tensor: Tensor Tensor("Placeholder:0", shape=(40, 240), dtype=float32) is not an element of this graph.
+54.237.204.202 - - [29/Aug/2019 20:46:26] "[1m[35mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 500 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 24892 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:46:27] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 24930 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:46:28] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 24965 thread 65 bound to OS proc set 4
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 24970 thread 81 bound to OS proc set 20
+54.237.204.202 - - [29/Aug/2019 20:46:29] "[1m[35mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2328, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2314, in wsgi_app
+    response = self.handle_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1760, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask_basicauth.py", line 108, in wrapper
+    return view_func(*args, **kwargs)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 162, in initialEmailAnalysisRawEmail
+    model = loadModel(modelName)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 65, in loadModel
+    classifier.load_weights(fileName + '.h5')
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/network.py", line 1166, in load_weights
+    f, self.layers, reshape=reshape)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/saving.py", line 1058, in load_weights_from_hdf5_group
+    K.batch_set_value(weight_value_tuples)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py", line 2470, in batch_set_value
+    get_session().run(assign_ops, feed_dict=feed_dict)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1095, in _run
+    'Cannot interpret feed_dict key as Tensor: ' + e.args[0])
+TypeError: Cannot interpret feed_dict key as Tensor: Tensor Tensor("Placeholder:0", shape=(40, 240), dtype=float32) is not an element of this graph.
+54.237.204.202 - - [29/Aug/2019 20:46:29] "[1m[35mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 500 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 25050 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:47:14] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 25120 thread 65 bound to OS proc set 4
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 25123 thread 81 bound to OS proc set 20
+54.237.204.202 - - [29/Aug/2019 20:47:34] "[1m[35mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 500 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 25165 thread 81 bound to OS proc set 20
+Traceback (most recent call last):
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2328, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2314, in wsgi_app
+    response = self.handle_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1760, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask_basicauth.py", line 108, in wrapper
+    return view_func(*args, **kwargs)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 162, in initialEmailAnalysisRawEmail
+    model = loadModel(modelName)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 65, in loadModel
+    classifier.load_weights(fileName + '.h5')
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/network.py", line 1166, in load_weights
+    f, self.layers, reshape=reshape)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/saving.py", line 1058, in load_weights_from_hdf5_group
+    K.batch_set_value(weight_value_tuples)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py", line 2470, in batch_set_value
+    get_session().run(assign_ops, feed_dict=feed_dict)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1095, in _run
+    'Cannot interpret feed_dict key as Tensor: ' + e.args[0])
+TypeError: Cannot interpret feed_dict key as Tensor: Tensor Tensor("Placeholder:0", shape=(40, 240), dtype=float32) is not an element of this graph.
+54.237.204.202 - - [29/Aug/2019 20:47:35] "[1m[35mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2328, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2314, in wsgi_app
+    response = self.handle_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1760, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask_basicauth.py", line 108, in wrapper
+    return view_func(*args, **kwargs)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 162, in initialEmailAnalysisRawEmail
+    model = loadModel(modelName)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 65, in loadModel
+    classifier.load_weights(fileName + '.h5')
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/network.py", line 1166, in load_weights
+    f, self.layers, reshape=reshape)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/saving.py", line 1058, in load_weights_from_hdf5_group
+    K.batch_set_value(weight_value_tuples)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py", line 2470, in batch_set_value
+    get_session().run(assign_ops, feed_dict=feed_dict)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1095, in _run
+    'Cannot interpret feed_dict key as Tensor: ' + e.args[0])
+TypeError: Cannot interpret feed_dict key as Tensor: Tensor Tensor("Placeholder:0", shape=(40, 240), dtype=float32) is not an element of this graph.
+54.237.204.202 - - [29/Aug/2019 20:47:35] "[1m[35mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 500 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 25180 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:47:36] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 25218 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:47:37] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 25252 thread 65 bound to OS proc set 4
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 25283 thread 81 bound to OS proc set 20
+54.237.204.202 - - [29/Aug/2019 20:47:38] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+54.237.204.202 - - [29/Aug/2019 20:47:39] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 25421 thread 65 bound to OS proc set 4
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 25423 thread 81 bound to OS proc set 20
+54.237.204.202 - - [29/Aug/2019 20:48:52] "[1m[35mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2328, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2314, in wsgi_app
+    response = self.handle_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1760, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask_basicauth.py", line 108, in wrapper
+    return view_func(*args, **kwargs)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 162, in initialEmailAnalysisRawEmail
+    model = loadModel(modelName)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 65, in loadModel
+    classifier.load_weights(fileName + '.h5')
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/network.py", line 1166, in load_weights
+    f, self.layers, reshape=reshape)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/saving.py", line 1058, in load_weights_from_hdf5_group
+    K.batch_set_value(weight_value_tuples)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py", line 2470, in batch_set_value
+    get_session().run(assign_ops, feed_dict=feed_dict)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1095, in _run
+    'Cannot interpret feed_dict key as Tensor: ' + e.args[0])
+TypeError: Cannot interpret feed_dict key as Tensor: Tensor Tensor("Placeholder:0", shape=(40, 240), dtype=float32) is not an element of this graph.
+54.237.204.202 - - [29/Aug/2019 20:48:52] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 25470 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:48:54] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 25516 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:49:05] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 25851 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:52:32] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 25902 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:52:35] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 25939 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:52:38] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 25976 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:52:39] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 26058 thread 65 bound to OS proc set 4
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 26076 thread 81 bound to OS proc set 20
+54.237.204.202 - - [29/Aug/2019 20:53:01] "[1m[35mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 500 -
+54.237.204.202 - - [29/Aug/2019 20:53:01] "[1m[35mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 500 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 26109 thread 65 bound to OS proc set 4
+Traceback (most recent call last):
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2328, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2314, in wsgi_app
+    response = self.handle_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1760, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask_basicauth.py", line 108, in wrapper
+    return view_func(*args, **kwargs)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 162, in initialEmailAnalysisRawEmail
+    model = loadModel(modelName)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 65, in loadModel
+    classifier.load_weights(fileName + '.h5')
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/network.py", line 1166, in load_weights
+    f, self.layers, reshape=reshape)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/saving.py", line 1058, in load_weights_from_hdf5_group
+    K.batch_set_value(weight_value_tuples)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py", line 2470, in batch_set_value
+    get_session().run(assign_ops, feed_dict=feed_dict)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1095, in _run
+    'Cannot interpret feed_dict key as Tensor: ' + e.args[0])
+TypeError: Cannot interpret feed_dict key as Tensor: Tensor Tensor("Placeholder:0", shape=(40, 240), dtype=float32) is not an element of this graph.
+54.237.204.202 - - [29/Aug/2019 20:53:16] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 26311 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:54:10] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 26355 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:54:12] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 26399 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:54:14] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 26449 thread 65 bound to OS proc set 4
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 26481 thread 81 bound to OS proc set 20
+54.237.204.202 - - [29/Aug/2019 20:54:19] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+54.237.204.202 - - [29/Aug/2019 20:54:20] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 26530 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:54:27] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 26583 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:54:36] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 26727 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:55:18] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 26785 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:55:28] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 26827 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:55:31] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 26876 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:55:40] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 26911 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:55:44] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 27089 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:55:49] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 27141 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:56:04] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 27236 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:56:45] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 27327 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:57:02] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 27366 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:57:08] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 27467 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:57:25] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 27507 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:57:27] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 27561 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:57:37] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 27624 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:57:42] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 27700 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:58:22] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 27824 thread 65 bound to OS proc set 4
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 27826 thread 81 bound to OS proc set 20
+54.237.204.202 - - [29/Aug/2019 20:58:37] "[1m[35mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2328, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2314, in wsgi_app
+    response = self.handle_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1760, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask_basicauth.py", line 108, in wrapper
+    return view_func(*args, **kwargs)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 162, in initialEmailAnalysisRawEmail
+    model = loadModel(modelName)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 65, in loadModel
+    classifier.load_weights(fileName + '.h5')
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/network.py", line 1166, in load_weights
+    f, self.layers, reshape=reshape)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/saving.py", line 1058, in load_weights_from_hdf5_group
+    K.batch_set_value(weight_value_tuples)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py", line 2470, in batch_set_value
+    get_session().run(assign_ops, feed_dict=feed_dict)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1095, in _run
+    'Cannot interpret feed_dict key as Tensor: ' + e.args[0])
+TypeError: Cannot interpret feed_dict key as Tensor: Tensor Tensor("Placeholder:0", shape=(40, 240), dtype=float32) is not an element of this graph.
+54.237.204.202 - - [29/Aug/2019 20:58:38] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 27868 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 20:58:43] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 29519 thread 65 bound to OS proc set 4
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 29521 thread 81 bound to OS proc set 20
+54.237.204.202 - - [29/Aug/2019 21:18:46] "[1m[35mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2328, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2314, in wsgi_app
+    response = self.handle_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1760, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask_basicauth.py", line 108, in wrapper
+    return view_func(*args, **kwargs)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 162, in initialEmailAnalysisRawEmail
+    model = loadModel(modelName)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 65, in loadModel
+    classifier.load_weights(fileName + '.h5')
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/network.py", line 1166, in load_weights
+    f, self.layers, reshape=reshape)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/saving.py", line 1058, in load_weights_from_hdf5_group
+    K.batch_set_value(weight_value_tuples)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py", line 2470, in batch_set_value
+    get_session().run(assign_ops, feed_dict=feed_dict)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1095, in _run
+    'Cannot interpret feed_dict key as Tensor: ' + e.args[0])
+TypeError: Cannot interpret feed_dict key as Tensor: Tensor Tensor("Placeholder:0", shape=(40, 240), dtype=float32) is not an element of this graph.
+54.237.204.202 - - [29/Aug/2019 21:18:46] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 29557 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 21:18:47] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 29591 thread 65 bound to OS proc set 4
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 29593 thread 81 bound to OS proc set 20
+54.237.204.202 - - [29/Aug/2019 21:18:48] "[1m[35mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2328, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2314, in wsgi_app
+    response = self.handle_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1760, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask_basicauth.py", line 108, in wrapper
+    return view_func(*args, **kwargs)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 162, in initialEmailAnalysisRawEmail
+    model = loadModel(modelName)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 65, in loadModel
+    classifier.load_weights(fileName + '.h5')
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/network.py", line 1166, in load_weights
+    f, self.layers, reshape=reshape)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/saving.py", line 1058, in load_weights_from_hdf5_group
+    K.batch_set_value(weight_value_tuples)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py", line 2470, in batch_set_value
+    get_session().run(assign_ops, feed_dict=feed_dict)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1095, in _run
+    'Cannot interpret feed_dict key as Tensor: ' + e.args[0])
+TypeError: Cannot interpret feed_dict key as Tensor: Tensor Tensor("Placeholder:0", shape=(40, 240), dtype=float32) is not an element of this graph.
+54.237.204.202 - - [29/Aug/2019 21:18:48] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 29627 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 21:18:50] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 29709 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 21:19:18] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 29838 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 21:20:15] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 29918 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 21:20:29] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30052 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 21:21:14] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30092 thread 65 bound to OS proc set 4
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30098 thread 81 bound to OS proc set 20
+54.237.204.202 - - [29/Aug/2019 21:21:16] "[1m[35mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2328, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2314, in wsgi_app
+    response = self.handle_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1760, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask_basicauth.py", line 108, in wrapper
+    return view_func(*args, **kwargs)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 162, in initialEmailAnalysisRawEmail
+    model = loadModel(modelName)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 65, in loadModel
+    classifier.load_weights(fileName + '.h5')
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/network.py", line 1166, in load_weights
+    f, self.layers, reshape=reshape)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/saving.py", line 1058, in load_weights_from_hdf5_group
+    K.batch_set_value(weight_value_tuples)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py", line 2470, in batch_set_value
+    get_session().run(assign_ops, feed_dict=feed_dict)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1095, in _run
+    'Cannot interpret feed_dict key as Tensor: ' + e.args[0])
+TypeError: Cannot interpret feed_dict key as Tensor: Tensor Tensor("Placeholder:0", shape=(40, 240), dtype=float32) is not an element of this graph.
+54.237.204.202 - - [29/Aug/2019 21:21:16] "[1m[35mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 500 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30132 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 21:21:17] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30171 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 21:21:19] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30259 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 21:21:57] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30357 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 21:22:43] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30463 thread 65 bound to OS proc set 4
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30461 thread 81 bound to OS proc set 20
+54.237.204.202 - - [29/Aug/2019 21:23:36] "[1m[35mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2328, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2314, in wsgi_app
+    response = self.handle_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1760, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask_basicauth.py", line 108, in wrapper
+    return view_func(*args, **kwargs)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 162, in initialEmailAnalysisRawEmail
+    model = loadModel(modelName)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 65, in loadModel
+    classifier.load_weights(fileName + '.h5')
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/network.py", line 1166, in load_weights
+    f, self.layers, reshape=reshape)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/saving.py", line 1058, in load_weights_from_hdf5_group
+    K.batch_set_value(weight_value_tuples)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py", line 2470, in batch_set_value
+    get_session().run(assign_ops, feed_dict=feed_dict)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1095, in _run
+    'Cannot interpret feed_dict key as Tensor: ' + e.args[0])
+TypeError: Cannot interpret feed_dict key as Tensor: Tensor Tensor("Placeholder:0", shape=(40, 240), dtype=float32) is not an element of this graph.
+54.237.204.202 - - [29/Aug/2019 21:23:36] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30514 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 21:23:41] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30549 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 21:23:42] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30617 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 21:23:56] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30703 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 21:23:59] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30778 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 21:24:26] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30899 thread 65 bound to OS proc set 4
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 30930 thread 81 bound to OS proc set 20
+54.237.204.202 - - [29/Aug/2019 21:25:34] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+54.237.204.202 - - [29/Aug/2019 21:25:34] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 31002 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 21:25:50] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 31066 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 21:26:07] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 31111 thread 65 bound to OS proc set 4
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 31143 thread 81 bound to OS proc set 20
+54.237.204.202 - - [29/Aug/2019 21:26:09] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+54.237.204.202 - - [29/Aug/2019 21:26:10] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 31203 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 21:26:24] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 31255 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 21:26:34] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 31311 thread 65 bound to OS proc set 4
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 31330 thread 81 bound to OS proc set 20
+54.237.204.202 - - [29/Aug/2019 21:26:47] "[1m[35mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2328, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2314, in wsgi_app
+    response = self.handle_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1760, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask_basicauth.py", line 108, in wrapper
+    return view_func(*args, **kwargs)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 162, in initialEmailAnalysisRawEmail
+    model = loadModel(modelName)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 65, in loadModel
+    classifier.load_weights(fileName + '.h5')
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/network.py", line 1166, in load_weights
+    f, self.layers, reshape=reshape)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/saving.py", line 1058, in load_weights_from_hdf5_group
+    K.batch_set_value(weight_value_tuples)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py", line 2470, in batch_set_value
+    get_session().run(assign_ops, feed_dict=feed_dict)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1095, in _run
+    'Cannot interpret feed_dict key as Tensor: ' + e.args[0])
+TypeError: Cannot interpret feed_dict key as Tensor: Tensor Tensor("Placeholder:0", shape=(40, 240), dtype=float32) is not an element of this graph.
+54.237.204.202 - - [29/Aug/2019 21:26:47] "[1m[35mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 500 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 31354 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 21:26:53] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 31394 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 21:26:58] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 32072 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 21:35:51] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 32520 thread 65 bound to OS proc set 4
+54.237.204.202 - - [29/Aug/2019 21:39:54] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 12209 thread 65 bound to OS proc set 4
+169.226.243.131 - - [30/Aug/2019 14:22:19] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+169.226.58.195 - - [03/Sep/2019 10:51:09] "[33mGET / HTTP/1.1[0m" 404 -
+169.226.58.195 - - [03/Sep/2019 10:51:09] "[33mGET / HTTP/1.1[0m" 404 -
+169.226.58.195 - - [10/Sep/2019 10:57:42] "[33mGET / HTTP/1.1[0m" 404 -
+169.226.58.195 - - [10/Sep/2019 10:57:42] "[33mGET / HTTP/1.1[0m" 404 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 32757 thread 65 bound to OS proc set 4
+54.221.119.41 - - [10/Sep/2019 12:47:37] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 332 thread 65 bound to OS proc set 4
+54.221.119.41 - - [10/Sep/2019 12:47:38] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 443 thread 65 bound to OS proc set 4
+54.221.119.41 - - [10/Sep/2019 12:48:36] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 1659 thread 65 bound to OS proc set 4
+54.221.119.41 - - [10/Sep/2019 13:04:12] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 3662 thread 65 bound to OS proc set 4
+54.221.119.41 - - [10/Sep/2019 13:31:02] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 4378 thread 65 bound to OS proc set 4
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 4380 thread 81 bound to OS proc set 20
+54.221.119.41 - - [10/Sep/2019 13:39:43] "[1m[35mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2328, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2314, in wsgi_app
+    response = self.handle_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1760, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask_basicauth.py", line 108, in wrapper
+    return view_func(*args, **kwargs)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 162, in initialEmailAnalysisRawEmail
+    model = loadModel(modelName)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 65, in loadModel
+    classifier.load_weights(fileName + '.h5')
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/network.py", line 1166, in load_weights
+    f, self.layers, reshape=reshape)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/saving.py", line 1058, in load_weights_from_hdf5_group
+    K.batch_set_value(weight_value_tuples)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py", line 2470, in batch_set_value
+    get_session().run(assign_ops, feed_dict=feed_dict)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py", line 206, in get_session
+    session.run(tf.variables_initializer(uninitialized_vars))
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/ops/variables.py", line 2856, in variables_initializer
+    return control_flow_ops.group(*[v.initializer for v in var_list], name=name)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/ops/control_flow_ops.py", line 3697, in group
+    return _GroupControlDeps(dev, deps, name=name)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/ops/control_flow_ops.py", line 3649, in _GroupControlDeps
+    return no_op(name=name)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/contextlib.py", line 119, in __exit__
+    next(self.gen)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 4234, in device
+    self._device_function_stack.pop_obj()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/framework/traceable_stack.py", line 110, in pop_obj
+    return self._stack.pop().obj
+IndexError: pop from empty list
+54.221.119.41 - - [10/Sep/2019 13:39:43] "[1m[35mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 500 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 4619 thread 65 bound to OS proc set 4
+Traceback (most recent call last):
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2328, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2314, in wsgi_app
+    response = self.handle_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1760, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask_basicauth.py", line 108, in wrapper
+    return view_func(*args, **kwargs)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 162, in initialEmailAnalysisRawEmail
+    model = loadModel(modelName)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 65, in loadModel
+    classifier.load_weights(fileName + '.h5')
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/network.py", line 1166, in load_weights
+    f, self.layers, reshape=reshape)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/saving.py", line 1058, in load_weights_from_hdf5_group
+    K.batch_set_value(weight_value_tuples)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py", line 2470, in batch_set_value
+    get_session().run(assign_ops, feed_dict=feed_dict)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1095, in _run
+    'Cannot interpret feed_dict key as Tensor: ' + e.args[0])
+TypeError: Cannot interpret feed_dict key as Tensor: Tensor Tensor("Placeholder:0", shape=(40, 240), dtype=float32) is not an element of this graph.
+54.221.119.41 - - [10/Sep/2019 13:42:12] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 5049 thread 65 bound to OS proc set 4
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 5051 thread 81 bound to OS proc set 20
+54.221.119.41 - - [10/Sep/2019 13:47:02] "[1m[35mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2328, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2314, in wsgi_app
+    response = self.handle_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1760, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask_basicauth.py", line 108, in wrapper
+    return view_func(*args, **kwargs)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 162, in initialEmailAnalysisRawEmail
+    model = loadModel(modelName)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 65, in loadModel
+    classifier.load_weights(fileName + '.h5')
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/network.py", line 1166, in load_weights
+    f, self.layers, reshape=reshape)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/saving.py", line 1058, in load_weights_from_hdf5_group
+    K.batch_set_value(weight_value_tuples)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py", line 2470, in batch_set_value
+    get_session().run(assign_ops, feed_dict=feed_dict)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py", line 206, in get_session
+    session.run(tf.variables_initializer(uninitialized_vars))
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/ops/variables.py", line 2856, in variables_initializer
+    return control_flow_ops.group(*[v.initializer for v in var_list], name=name)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/ops/control_flow_ops.py", line 3697, in group
+    return _GroupControlDeps(dev, deps, name=name)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/ops/control_flow_ops.py", line 3649, in _GroupControlDeps
+    return no_op(name=name)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/contextlib.py", line 119, in __exit__
+    next(self.gen)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 4234, in device
+    self._device_function_stack.pop_obj()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/framework/traceable_stack.py", line 110, in pop_obj
+    return self._stack.pop().obj
+IndexError: pop from empty list
+54.221.119.41 - - [10/Sep/2019 13:47:02] "[1m[35mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 500 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 5401 thread 65 bound to OS proc set 4
+Traceback (most recent call last):
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2328, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2314, in wsgi_app
+    response = self.handle_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1760, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask_basicauth.py", line 108, in wrapper
+    return view_func(*args, **kwargs)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 162, in initialEmailAnalysisRawEmail
+    model = loadModel(modelName)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 65, in loadModel
+    classifier.load_weights(fileName + '.h5')
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/network.py", line 1166, in load_weights
+    f, self.layers, reshape=reshape)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/saving.py", line 1058, in load_weights_from_hdf5_group
+    K.batch_set_value(weight_value_tuples)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py", line 2470, in batch_set_value
+    get_session().run(assign_ops, feed_dict=feed_dict)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1095, in _run
+    'Cannot interpret feed_dict key as Tensor: ' + e.args[0])
+TypeError: Cannot interpret feed_dict key as Tensor: Tensor Tensor("Placeholder:0", shape=(40, 240), dtype=float32) is not an element of this graph.
+54.221.119.41 - - [10/Sep/2019 13:50:53] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 5769 thread 65 bound to OS proc set 4
+54.221.119.41 - - [10/Sep/2019 13:54:57] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 5968 thread 65 bound to OS proc set 4
+54.221.119.41 - - [10/Sep/2019 13:56:45] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 6233 thread 65 bound to OS proc set 4
+54.221.119.41 - - [10/Sep/2019 13:59:29] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 6886 thread 65 bound to OS proc set 4
+54.221.119.41 - - [10/Sep/2019 14:07:01] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 8614 thread 65 bound to OS proc set 4
+54.221.119.41 - - [10/Sep/2019 14:28:49] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 8930 thread 65 bound to OS proc set 4
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 8932 thread 81 bound to OS proc set 20
+54.221.119.41 - - [10/Sep/2019 14:32:03] "[1m[35mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2328, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2314, in wsgi_app
+    response = self.handle_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1760, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask_basicauth.py", line 108, in wrapper
+    return view_func(*args, **kwargs)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 162, in initialEmailAnalysisRawEmail
+    model = loadModel(modelName)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 65, in loadModel
+    classifier.load_weights(fileName + '.h5')
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/network.py", line 1166, in load_weights
+    f, self.layers, reshape=reshape)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/saving.py", line 1058, in load_weights_from_hdf5_group
+    K.batch_set_value(weight_value_tuples)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py", line 2470, in batch_set_value
+    get_session().run(assign_ops, feed_dict=feed_dict)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1095, in _run
+    'Cannot interpret feed_dict key as Tensor: ' + e.args[0])
+TypeError: Cannot interpret feed_dict key as Tensor: Tensor Tensor("Placeholder:0", shape=(40, 240), dtype=float32) is not an element of this graph.
+54.221.119.41 - - [10/Sep/2019 14:32:04] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 8967 thread 65 bound to OS proc set 4
+54.221.119.41 - - [10/Sep/2019 14:32:05] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 10087 thread 65 bound to OS proc set 4
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 10088 thread 81 bound to OS proc set 20
+54.221.119.41 - - [10/Sep/2019 14:42:06] "[1m[35mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2328, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2314, in wsgi_app
+    response = self.handle_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1760, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask_basicauth.py", line 108, in wrapper
+    return view_func(*args, **kwargs)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 162, in initialEmailAnalysisRawEmail
+    model = loadModel(modelName)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 65, in loadModel
+    classifier.load_weights(fileName + '.h5')
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/network.py", line 1166, in load_weights
+    f, self.layers, reshape=reshape)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/saving.py", line 1058, in load_weights_from_hdf5_group
+    K.batch_set_value(weight_value_tuples)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py", line 2470, in batch_set_value
+    get_session().run(assign_ops, feed_dict=feed_dict)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1095, in _run
+    'Cannot interpret feed_dict key as Tensor: ' + e.args[0])
+TypeError: Cannot interpret feed_dict key as Tensor: Tensor Tensor("Placeholder:0", shape=(40, 240), dtype=float32) is not an element of this graph.
+54.221.119.41 - - [10/Sep/2019 14:42:06] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 10137 thread 65 bound to OS proc set 4
+54.221.119.41 - - [10/Sep/2019 14:42:08] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 10473 thread 65 bound to OS proc set 4
+54.221.119.41 - - [10/Sep/2019 14:45:35] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 10730 thread 65 bound to OS proc set 4
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 10732 thread 81 bound to OS proc set 20
+54.221.119.41 - - [10/Sep/2019 14:48:08] "[1m[35mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2328, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2314, in wsgi_app
+    response = self.handle_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1760, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/flask_basicauth.py", line 108, in wrapper
+    return view_func(*args, **kwargs)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 162, in initialEmailAnalysisRawEmail
+    model = loadModel(modelName)
+  File "/network/rit/lab/ILSlab/PANACEA_v0/Passive_Defences/Structural_Analysis_v1/StructuralAnalaysis/structuralAnalysisWebService_V2.py", line 65, in loadModel
+    classifier.load_weights(fileName + '.h5')
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/network.py", line 1166, in load_weights
+    f, self.layers, reshape=reshape)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/engine/saving.py", line 1058, in load_weights_from_hdf5_group
+    K.batch_set_value(weight_value_tuples)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py", line 2470, in batch_set_value
+    get_session().run(assign_ops, feed_dict=feed_dict)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/network/rit/lab/ILSlab/Kartik/miniconda3/envs/ILS/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1095, in _run
+    'Cannot interpret feed_dict key as Tensor: ' + e.args[0])
+TypeError: Cannot interpret feed_dict key as Tensor: Tensor Tensor("Placeholder:0", shape=(40, 240), dtype=float32) is not an element of this graph.
+54.221.119.41 - - [10/Sep/2019 14:48:09] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 10778 thread 65 bound to OS proc set 4
+54.221.119.41 - - [10/Sep/2019 14:48:10] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 28277 thread 65 bound to OS proc set 4
+3.87.61.43 - - [16/Sep/2019 15:13:14] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 28349 thread 65 bound to OS proc set 4
+3.87.61.43 - - [16/Sep/2019 15:13:39] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 28388 thread 65 bound to OS proc set 4
+3.87.61.43 - - [16/Sep/2019 15:13:46] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 28485 thread 65 bound to OS proc set 4
+3.87.61.43 - - [16/Sep/2019 15:14:35] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 28651 thread 65 bound to OS proc set 4
+3.87.61.43 - - [16/Sep/2019 15:16:32] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+169.226.58.195 - - [17/Sep/2019 11:00:50] "[33mGET / HTTP/1.1[0m" 404 -
+169.226.58.195 - - [17/Sep/2019 11:00:50] "[33mGET / HTTP/1.1[0m" 404 -
+169.226.58.195 - - [24/Sep/2019 10:54:49] "[33mGET / HTTP/1.1[0m" 404 -
+169.226.58.195 - - [24/Sep/2019 10:54:49] "[33mGET / HTTP/1.1[0m" 404 -
+169.226.58.195 - - [01/Oct/2019 11:01:04] "[33mGET / HTTP/1.1[0m" 404 -
+169.226.58.195 - - [01/Oct/2019 11:01:04] "[33mGET / HTTP/1.1[0m" 404 -
+169.226.58.195 - - [08/Oct/2019 10:58:50] "[33mGET / HTTP/1.1[0m" 404 -
+169.226.58.195 - - [08/Oct/2019 10:58:50] "[33mGET / HTTP/1.1[0m" 404 -
+169.226.58.195 - - [15/Oct/2019 10:52:05] "[33mGET / HTTP/1.1[0m" 404 -
+169.226.58.195 - - [15/Oct/2019 10:52:05] "[33mGET / HTTP/1.1[0m" 404 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 4996 thread 65 bound to OS proc set 4
+3.91.243.181 - - [15/Oct/2019 17:36:28] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+OMP: Info #250: KMP_AFFINITY: pid 30469 tid 27616 thread 65 bound to OS proc set 4
+3.94.85.65 - - [18/Oct/2019 18:42:43] "[37mPOST /PANACEA/structuralAnalysis HTTP/1.1[0m" 200 -
+169.226.58.195 - - [22/Oct/2019 11:00:53] "[33mGET / HTTP/1.1[0m" 404 -
+169.226.58.195 - - [22/Oct/2019 11:00:53] "[33mGET / HTTP/1.1[0m" 404 -
+169.226.58.195 - - [29/Oct/2019 10:54:40] "[33mGET / HTTP/1.1[0m" 404 -
+169.226.58.195 - - [29/Oct/2019 10:54:40] "[33mGET / HTTP/1.1[0m" 404 -
